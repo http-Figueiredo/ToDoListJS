@@ -1,6 +1,51 @@
-#botoes {
+@import url('https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Tagesschrift", system-ui;
     display: flex;
-    flex-direction: row;
-    align-items:center;
-    justify-content:space-between;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("BackgroundImage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}   
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: 100%;
+    height: 100%;
+    padding: 0px 20px*/
+}
+
+.todo-app {
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    border: 3px solid rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    box-shadow: 0 0 100px purple;
+    backdrop-filter: blur(10px);
+}
+
+.todo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

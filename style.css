@@ -94,6 +94,11 @@ body{
     justify-content: center;
 }
 
-.task-list {
+#task-list {
     width: 100%;
+}
+
+#task-list li {
+    display: flex;
+    
 }
